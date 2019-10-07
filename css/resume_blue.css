@@ -5,7 +5,7 @@
  */
 
 .emphasisText {
-  color: #BD5D38;
+  color: #6EA5CC;
   font-weight: bold;
 }
 
@@ -97,7 +97,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #6EA5CC;
 }
 
 .dev-icons {
@@ -105,7 +105,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #6EA5CC;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -122,7 +122,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #D6EEFF;
 }
 
 @media (min-width: 992px) {
@@ -216,26 +216,26 @@ section.resume-section .workNames a {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #6EA5CC !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #6EA5CC !important;
 }
 
 
 a {
-  color: #BD5D38;
+  color: #6EA5CC;
 }
 
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #456780;
   text-decoration: none;
 }
 
 .workNames a:hover {
-  color: #824027 !important;
+  color: #456780 !important;
 }
 
 figure {
@@ -284,7 +284,7 @@ a:hover figure {
 }
 
 .btn {
-  background-color: #824027;
+  background-color: #456780;
   color: #ffffff !important;
   margin: 3px;
 }

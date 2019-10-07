@@ -5,7 +5,7 @@
  */
 
 .emphasisText {
-  color: #BD5D38;
+  color: #B36D6B;
   font-weight: bold;
 }
 
@@ -18,7 +18,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 13rem;
   }
 }
 
@@ -97,7 +97,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #B36D6B;
 }
 
 .dev-icons {
@@ -105,7 +105,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #B36D6B;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -122,7 +122,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #FEC9C7;
 }
 
 @media (min-width: 992px) {
@@ -216,26 +216,26 @@ section.resume-section .workNames a {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #B36D6B !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #B36D6B !important;
 }
 
 
 a {
-  color: #BD5D38;
+  color: #B36D6B;
 }
 
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #663F3D;
   text-decoration: none;
 }
 
 .workNames a:hover {
-  color: #824027 !important;
+  color: #663F3D !important;
 }
 
 figure {
@@ -284,7 +284,7 @@ a:hover figure {
 }
 
 .btn {
-  background-color: #824027;
+  background-color: #663F3D;
   color: #ffffff !important;
   margin: 3px;
 }
