@@ -1,0 +1,216 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/*.container {
+  margin-left: 5px;
+  margin-right: 5px;
+}*/
+
+#mainNav {
+  min-height: 50px;
+  background-color: #fff;
+  font-family: 'PT Serif', serif;
+  font-size: 1.5rem;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: #64a19d;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  font-weight: 500;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+
+  #mainNav .navbar-brand {
+    color: #363F46;
+    padding: 30px 0px 30px 25px;
+    font-weight: bold;
+  }
+
+
+  #navbarResponsive.collapse.navbar-collapse{
+    justify-content: left;
+    display: block !important;
+  }
+
+
+  #mainNav .nav-link {
+    transition: none;    
+    color: #363F46;
+    padding: 30px 25px 30px 25px;
+  }
+
+  #mainNav .nav-link:hover {
+    font-weight: bold;
+  }
+
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+    align-content: center;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+    border-bottom: 2px solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 2px solid #64a19d;
+  }
+
+
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/masthead.jpg"); /*linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),*/
+  background-position: bottom; 
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+
+  .masthead .name {
+    margin-left: 40px;
+  }
+
+  .masthead .name h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 4rem;
+    color: #363F46;
+    text-align: left;
+    display: block;
+    padding-top: 20%;
+    font-weight: bold;
+  }
+
+  .masthead .name p.body {
+    display:block;
+    color: #363F46;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.masthead {
+  height: 100vh;
+  padding: 0;
+}
+.masthead .name h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+section {
+  padding: 60px 60px;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 2.3rem;
+  color: #E99094;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 30px 40px 30px;
+}
+
+p {
+  color: #363F46;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 400px;
+  height:auto;
+  border-radius: 75px;
+
+}
+
+
+/*figure {
+  margin: 0 0 2rem !important; 
+}
+*/
+
+figure{
+  display: block;
+  border-radius: 0.25rem;
+}
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  height: auto;
+}
+
+.figure-caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #6c757d;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+a:hover figure {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
