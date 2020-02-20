@@ -4,10 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-/*.container {
-  margin-left: 5px;
-  margin-right: 5px;
-}*/
 
 #mainNav {
   min-height: 30px;
@@ -92,19 +88,27 @@
   }
 
 
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-section {
-  padding: 40px 60px 40px 60px;
+img.poster {
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 h1 {
   font-family: 'PT Serif', serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #808080;
   font-weight: bold;
-  text-align: center;
-  padding: 30px 0px 0px 0px;
+  padding: 120px 0px 0px 0px;
 
 }
 
@@ -161,11 +165,11 @@ footer p {
   font-size: 17px;
 }
 
-ul {
+/*ul {
   font-size: 17px;
   color: #363F46;
 }
-
+*/
 .emphasisText {
   color: #E99094;
   font-size: 17px;
