@@ -213,3 +213,14 @@ footer p {
 a {
   color: #363F46;
 }
+
+#joke > div {
+	display: none;
+}
+
+#joke > div:first-child {
+    display: block
+}
+#joke > div:hover + div {
+    display: block
+}
