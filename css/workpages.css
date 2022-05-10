@@ -224,3 +224,22 @@ a {
 #joke > div:hover + div {
     display: block
 }
+
+table {
+  color: #808080;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: center;
+  font-weight: normal;
+}
+
+td {
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+}
