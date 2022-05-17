@@ -1,0 +1,5 @@
+
+; <<>> DiG 9.10.6 <<>> WWW.MOHONASENGUPTA +nostats +nocomments +nocmd
+;; global options: +cmd
+;WWW.MOHONASENGUPTA.		IN	A
+.			884	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022051001 1800 900 604800 86400
