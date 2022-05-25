@@ -4,20 +4,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-
-
-/* NAV BAR */ 
+/*.container {
+  margin-left: 5px;
+  margin-right: 5px;
+}*/
 
 /* responsive bit */ 
-
-/*body {
-  background-color: #FDF8F8;
-}*/
 
 #mainNav {
   min-height: 50px;
   max-width: 100%;
-  background-color: #FDF8F8;
+  background-color: #fff;
   font-family: 'PT Serif', serif;
   font-size: 1.3rem;
 }
@@ -64,11 +61,15 @@
   font-size: 1.3rem;
   }
 
+  #mainNav .navbar-brand {
+  color: #64a19d;
+  font-size: 1.3rem;
+  font-weight: bold;
+  }
+
 
   #mainNav .navbar-brand {
-    color: #FDF8F8; /*off white*/
-    font-size: 1.3rem;
-    font-weight: bold;
+    color: #363F46;
     padding: 30px 0px 30px 25px;
     font-weight: bold;
   }
@@ -82,7 +83,7 @@
 
   #mainNav .nav-link {
     transition: none;    
-    color: #FDF8F8; /*off white*/
+    color: #363F46;
     padding: 30px 25px 30px 25px;
   }
 
@@ -94,29 +95,29 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #D2899F; /*tan*/
+    color: #161616;
     align-content: center;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #D2899F;
+    color: #161616;
     border-bottom: 2px solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #EEC7B6;
+    color: #64a19d;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #EEC7B6;
+    color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #D2899F;
+    color: #64a19d;
     outline: none;
-    border-bottom: 5px solid #EEC7B6;
+    border-bottom: 2px solid #64a19d;
   }
 
 
 }
 
-/* MAST HEAD */
+/* responsive bit */
 
 .masthead {
   position: relative;
@@ -124,7 +125,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../img/mastheaddark.JPG"); /*linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),*/
+  background: url("../img/masthead.JPG"); /*linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),*/
   background-position: bottom; 
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -135,9 +136,6 @@
   height: 100vh;
   padding: 0;
 }
-
-/* responsive bit */
-
 
 @media (max-width: 992px) {
 
@@ -164,7 +162,7 @@
   .masthead .name h1 {
     font-family: 'PT Serif', serif;
     font-size: 4rem;
-    color: #FDF8F8;
+    color: #363F46;
     text-align: left;
     display: block;
     padding-top: 20%;
@@ -173,10 +171,9 @@
 
   .masthead .name p.body {
     display:block;
-    color: #FDF8F8;
+    color: #363F46;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
   }
 }
 
@@ -192,8 +189,6 @@
   }
 }
 
-/*SECTION*/
-
 section {
   padding: 10px 10px;
 }
@@ -201,7 +196,7 @@ section {
 h2 {
   font-family: 'PT Serif', serif;
   font-size: 1.5rem;
-  color: #F29494;
+  color: #E99094;
   font-weight: bold;
   text-align: center;
   padding: 20px 30px 20px 30px;
@@ -257,7 +252,7 @@ a:hover {
 
   h2 {
   font-size: 2.3rem;
-  color: #F29494;
+  color: #E99094;
   padding: 10px 30px 40px 30px;
   }
 
@@ -282,14 +277,13 @@ a:hover {
   .figure-img {
     height: auto;
     align-self: center;
-    border-radius:25px;
     padding: 20px;
     margin: 0px;
   }
 
   a:hover figure {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgba(208, 183, 214, 0.51); /*specific color, just for this*/
+  background-color: #ddd3ee;
   }
 
   a:hover {

@@ -4,13 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
- /* NAV BAR */ 
-
-/* responsive bit */ 
-
-/*body {
-  background-color: #FDF8F8;
-}*/
 
 #mainNav {
   min-height: 30px;
@@ -46,8 +39,6 @@
   background-color: transparent;
 }
 
-/* desktop bit */ 
-
 @media (min-width: 992px) {
 
   #mainNav {
@@ -59,34 +50,27 @@
   }
 
 
-  #mainNav {
-    font-size: 1rem;
-  }
-
-
   #mainNav .navbar-brand {
-    color: #D2899F; /*purple*/
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 15px 0px 25px 15px;
+    color: #363F46;
+    padding: 20px 0px 20px 25px;
     font-weight: bold;
   }
 
   #mainNav .nav-link {
     transition: none;    
-    color: #D2899F;
-    padding: 15px;
+    color: #363F46;
+    padding: 20px 25px 20px 25px;
   }
 
-/*  #mainNav .nav-link:hover {
+  #mainNav .nav-link:hover {
     font-weight: bold;
   }
-*/
+
   #mainNav.navbar-shrink {
-    background-color: #EEC7B6;
+    background-color: #64a19d;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #FDF8F8;
+    color: #fff;
     align-content: center;
   }
   #mainNav.navbar-shrink .nav-link {
@@ -122,7 +106,7 @@ img.poster {
 h1 {
   font-family: 'PT Serif', serif;
   font-size: 2rem;
-  color: #37343B;
+  color: #808080;
   font-weight: bold;
   padding: 120px 0px 0px 0px;
 
@@ -131,7 +115,7 @@ h1 {
 h2 {
   font-family: 'PT Serif', serif;
   font-size: 1.5rem;
-  color: #D2899F;
+  color: #E99094;
   font-weight: bold;
   text-align: left;
   padding: 10px 0px 10px 0px;
@@ -147,16 +131,11 @@ h3 {
 }
 
 p {
-  color: #363F46;
+  color: #808080;
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
 }
 
-li {
-  color: #363F46;
-  font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
-}
 
 p.body{
   color: #363F46;
