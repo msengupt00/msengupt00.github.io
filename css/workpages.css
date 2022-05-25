@@ -15,7 +15,7 @@
 #mainNav {
   min-height: 30px;
   background-color: #64a19d;
-  font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif; 
   font-size: 1rem;
 }
 
@@ -76,6 +76,9 @@
     transition: none;    
     color: #D2899F;
     padding: 15px;
+    min-height: 30px;
+    font-family: 'PT Serif', serif; 
+    font-size: 1rem;
   }
 
 /*  #mainNav .nav-link:hover {
@@ -157,6 +160,8 @@ li {
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
 }
+
+
 
 p.body{
   color: #363F46;
