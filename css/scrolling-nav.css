@@ -124,7 +124,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../img/mastheaddark.JPG"); /*linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),*/
+  background: url("../img/mastheaddark.jpg"); /*linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),*/
   background-position: bottom; 
   background-repeat: no-repeat;
   background-attachment: scroll;
