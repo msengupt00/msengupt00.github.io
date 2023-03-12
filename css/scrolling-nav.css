@@ -17,7 +17,7 @@
 #mainNav {
   min-height: 50px;
   max-width: 100%;
-  background-color: #FDF8F8;
+  background-color: #546c7a;
   font-family: 'PT Serif', serif;
   font-size: 1.3rem;
 }
@@ -25,8 +25,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.5rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #FDF8F8;
+  border: 1px solid #FDF8F8;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -34,9 +34,16 @@
 }
 
 #mainNav .navbar-brand {
-  color: #64a19d;
+  color: #FDF8F8;
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+#mainNav li a{
+    color: #FDF8F8;
+    font-size: 15px;
+    font-weight: 300;
+
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -145,12 +152,20 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   font-family: 'PT Serif', serif;
-  color: #363F46;
+  color: #FDF8F8;
   text-align: left;
   display: block;
   padding-top: 50%;
   font-weight: bold;
 }
+
+  .masthead .name p.body {
+    display:block;
+    color: #FDF8F8;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
 }
 
 /* desktop */
